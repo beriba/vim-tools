@@ -17,6 +17,8 @@ set incsearch
 syntax enable
 colorscheme elflord
 set background=dark
+let &colorcolumn=+120
+highlight ColorColumn ctermbg=Red
 
 " encoding
 set encoding=utf8
