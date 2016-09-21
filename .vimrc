@@ -49,6 +49,9 @@ set number
 map j gj
 map k gk
 
+" paste
+set pastetoggle=<F2>
+
 " codesniffer & mess detector
 " Pass arguments to phpcs binary
 let g:phpqa_codesniffer_args = "--standard=Zend--tab-width=4"
